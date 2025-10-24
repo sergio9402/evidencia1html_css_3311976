@@ -1,0 +1,27 @@
+---
+// definimos las propiedades
+// que puede recibir componentes
+    interface Props {
+        etiqueta:string;
+        
+    
+}
+//crear una variable
+//para recibir la etiqueta
+//valores enviados desde el control
+    const etiqueta = Astro.props.etiqueta;
+    
+---
+
+<!--
+etiqueta input:
+se utiliza para los siguientes controles:
+- campo de texto
+- password
+- chekbox
+- radio button
+- boton de envio
+ES ETIQUETA  CERRADA
+ -->
+<label>{ etiqueta }</label>
+<input />
