@@ -11,9 +11,35 @@
 ---
 <label>{etiqueta}</label>
 <select>
-    <option>Cali</option>
-    <option>Bogota</option>
-    <option>Medellin</option>
-    <option>Cartagena</option>
-    <option>Baranquilla</option>
+    <option id="Cali">Cali</option>
+    <option id="bogota">Bogota</option>
+    <option id="Medellin">Medellin</option>
+    <option id="Cartagena">Cartagena</option>
+    <option id="Baranquilla">Baranquilla</option>
+
 </select>
+<style>
+    /*estilode identificador*/
+    /*solo aplica a etiquetas*/
+    /*que tengan el atributo id*/
+    /*NOTA: SOLO DEBE HABER UN ID IGUAL*/
+    /*EN TODA LA PAGINA*/
+    #bogota{
+        color: brown;
+    }
+    select{
+        border: 2px rgb(255, 0, 149) solid;
+    }
+    #Medellin{
+        color: blue;
+    }
+    #Cartagena{
+        color: aquamarine;
+    }
+    #Baranquilla{
+        color: yellowgreen;
+    }
+    #Cali{
+        color: blueviolet;
+    }
+</style>
