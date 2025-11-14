@@ -1,0 +1,14 @@
+    /*estilos de clase */
+    /*solo se aplican a los elementos*/
+    /*que tengan el atributo class*/
+    /*el mismo nombre de class*/
+    .boton-envio{
+        background-color: rgb(238, 77, 13);
+        color: aliceblue;
+        width: 100px;
+        height: 40px;
+        border-radius: 10px;
+        margin-left: 150px;
+        margin-bottom: 25px;
+    }
+

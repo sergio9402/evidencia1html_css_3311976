@@ -14,47 +14,72 @@
     
 ---
 <label>{etiqueta}</label>
-<div>
+<div class="rbgl">
+    
+   
     <div id="cedula" >
-        <input 
+        <input class="radio-btn" 
             type="radio"
             name="rbg"
             id="radio1"
         />
-        <strong>C.C</strong> 
+        C.C
     </div>
     <div id="tarjeta-identidad">
-        <input 
+        <input class="radio-btn" 
         type="radio"
          name="rbg"
         id="radio2"
         />
-        <strong>T.I</strong> 
+        T.I
     </div>
     <div id="cedula-extrangera">
-        <input 
+        <input class="radio-btn" 
         type="radio"
          name="rbg"
         id="radio3"
     /> 
-    <strong>C.E</strong> 
+    C.E
+    
+   
     </div>
     
 </div>
 <style>
-    #cedula{
+    .rbgl{
+        background-color: rgb(236, 236, 238);
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 5px;
+        margin:40px 0 10px 20px ;
+        width: 90%;
+        padding-left: auto;
+
+    }
+    #cedula .radio-btn{
         background-color: rgb(87, 150, 113);
         /*display:
         determina como una etiqueta se comportara en cuanto a:display largo , ancho , ubicacion;*/
-        display: inline;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+         
+        
     }
-    #tarjeta-identidad{
+    #tarjeta-identidad .radio-btn{
         background-color: blue;
-        display: inline;
-    }
-    #cedula-extrangera{
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+    }     
+        
+    #cedula-extrangera .radio-btn{
         background-color: blueviolet;
-        display: inline;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+         
     }
     
+    margin top;10px
 </style>

@@ -1,0 +1,25 @@
+ 
+   /*solo se puede poner aqui sintaxis css*/
+    /*estilos para input text*/
+    /*selector de etiqueta:*/
+    /*estilos aplicables a toda etiqueta*/
+    /*señala el selector*/
+    input{
+        display: block;
+        background-color: rgb(181, 185, 176);
+        color: rgb(21, 21, 24);
+        /*border debe tener color peso o grosor estilo y tipo de linea*/
+        border-color: rgb(51, 42, 42);
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 5px;
+        margin-left: 20px;
+        width:85%;
+        padding: 10px;
+
+    }
+ label{
+
+    display: block;
+    margin:40px 0 10px 20px ;
+ }
