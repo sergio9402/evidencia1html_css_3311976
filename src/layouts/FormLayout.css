@@ -5,6 +5,7 @@
         border: 2px solid black;
         margin:20px auto;
         border-radius: 15px;
+        box-shadow: 10px 10px 5px 0px rgba(150,149,149,0.75);
     }
  .titulo{
     text-align: center;
